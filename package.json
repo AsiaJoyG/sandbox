@@ -1,0 +1,19 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "We will be creating a Jest testing environment to practice coding in a Test-Driven-Development style",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsiaJoyG/sandbox.git"
+  },
+  "author": "Asia Gagnon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsiaJoyG/sandbox/issues"
+  },
+  "homepage": "https://github.com/AsiaJoyG/sandbox#readme"
+}
