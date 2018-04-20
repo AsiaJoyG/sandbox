@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AsiaJoyG/sandbox/issues"
   },
-  "homepage": "https://github.com/AsiaJoyG/sandbox#readme"
+  "homepage": "https://github.com/AsiaJoyG/sandbox#readme",
+  "dependencies": {
+    "typescript": "^2.8.3"
+  }
 }
