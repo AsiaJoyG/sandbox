@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AsiaJoyG/sandbox#readme",
   "dependencies": {
+    "jest": "^22.4.3",
     "typescript": "^2.8.3"
   }
 }
