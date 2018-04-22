@@ -17,6 +17,29 @@
   },
   "homepage": "https://github.com/AsiaJoyG/sandbox#readme",
   "dependencies": {
+    "ts-jest": "^22.4.4",
     "typescript": "^2.8.3"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "./tsconfig.json"
+      }
+    },
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js?|ts?)$",
+    "testPathIgnorePatterns": [
+      "(/native/.*)"
+    ],
+    "modulePathIgnorePatterns": [
+      "(/native/.*)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
   }
 }
